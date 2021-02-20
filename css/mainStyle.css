@@ -1,0 +1,44 @@
+/* basic */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  box-sizing: inherit;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+/* Typography */
+
+/* Main */
+
+.container {
+  max-width: 114rem;
+  width: 100%;
+  background: hsl(0, 100%, 74%) url("../images/bg-intro-desktop.png") no-repeat
+    center;
+  background-size: cover;
+
+  height: 50rem;
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
