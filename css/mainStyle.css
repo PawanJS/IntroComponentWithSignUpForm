@@ -201,6 +201,10 @@ body {
 }
 
 @media only screen and (max-width: 60em) {
+  body{
+    padding: 0;
+  }
+  
   .container {
     padding: 5rem;
     grid-template-columns: 1fr;
@@ -213,7 +217,7 @@ body {
 
 @media only screen and (max-width: 45em) {
   .container {
-    padding: 0;
+    padding: 3rem;
   }
 
   .btn {
